@@ -21,66 +21,38 @@ Follow [this link]([insert later]) to view and use our site!
 
 ## To-Do:
 
-- npm init and install all dependencies
-- Setup all dependencies in all package.json (root, server, client)
 - Setup an apollo server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API
 - Modify the existing authentication middleware so that it works in the context of a GraphQL API
 - Create an Apollo Provider so that requests can communicate with an Apollo Server
-- User Story
-    ```
-    GIVEN a book search engine
-    WHEN I load the search engine
-    THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-    WHEN I click on the Search for Books menu option
-    THEN I am presented with an input field to search for books and a submit button
-    WHEN I am not logged in and enter a search term in the input field and click the submit button
-    THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
-    WHEN I click on the Login/Signup menu option
-    THEN a modal appears on the screen with a toggle between the option to log in or sign up
-    WHEN the toggle is set to Signup
-    THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
-    WHEN the toggle is set to Login
-    THEN I am presented with two inputs for an email address and a password and login button
-    WHEN I enter a valid email address and create a password and click on the signup button
-    THEN my user account is created and I am logged in to the site
-    WHEN I enter my account’s email address and password and click on the login button
-    THEN I the modal closes and I am logged in to the site
-    WHEN I am logged in to the site
-    THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-    WHEN I am logged in and enter a search term in the input field and click the submit button
-    THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-    WHEN I click on the Save button on a book
-    THEN that book’s information is saved to my account
-    WHEN I click on the option to see my saved books
-    THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-    WHEN I click on the Remove button on a book
-    THEN that book is deleted from my saved books list
-    WHEN I click on the Logout button
-    THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-    ```
 - Test all functionality
-- Finish Readme
+- Record readme gifs and update features section.
 - Deploy to Heroku and connect MongoDB database
 - Turn in Project
 
 ## Features
 
-This is how the front-end webpage appears to viewers. It is responsive, adapting to multiple screen sizes.
+This is how the front-end webpage appears to viewers. It is responsive, adapting to multiple screen sizes. The main page shows new users a menu, with which they can search for books, login, or signup. If the user is logged in, the buttons they will see options to search for books, view their saved books, or logout.
+
+[screenshot]
 
 <p align="center">
-<img alt="A screenshot of the homepage of Book Search. A list of posts are shown in the main portion of the screen. There is also [insert later]" src="./assets/images/placeholder.jpg"/>
+<img alt="A screenshot of the homepage of Book Search. Users can search for books by filling out the search field, or they can login/signup by clicking the login/signup button." src="./assets/images/placeholder.jpg"/>
 </p>
 
-[insert later]
+If the user selects "search for books," they are then presented with an input field to search for books. Clicking "submit" will return a list of search results, each featuring a book's title, author, description, image, and a link to that book on the Google Books site. If the user is logged in while searching for books, then an option appears for them to save a book to their account. By clicking on the save option, that book is added to the "Saved Books" page. Users can manage their saved books from this page by deleting that book from their saved books list. 
+
+[start from homepage while logged in, search for book, save book to saved books, delete book from saved books]
 
 <p align="center">
-<img alt="[insert later]" src="./assets/images/placeholder.jpg"/>
+<img alt="A demonstration gif showing the user searching for a book, saving it to their list, and managing their saved books by deleting one." src="./assets/images/placeholder.jpg"/>
 </p>
 
-[insert later]
+Clicking the login/signup button on the main page will bring users to a login portal. The user can toggle the modal between a "sign up" or "login" option. Here they can either enter new credentials to sign up as a user in the signup section, or they can enter their already verfied credentials into the login section. To sign up, users must provide a username, a valid email address, and a password. To login, they only need to provide their email address and password for verification. Later, users can logout using the "logout" button that appears in the site's navigation. 
+
+[start from homepage, click login/signup, signup]
 
 <p align="center">
-<img alt="[insert later]" src="./assets/images/placeholder.jpg"/> 
+<img alt="A demonstration gif showing the user signing up for the site, then logging out." src="./assets/images/placeholder.jpg"/> 
 </p>
 
 ## Technologies
