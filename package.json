@@ -1,5 +1,5 @@
 {
-  "name": "googlebooks-app",
+  "name": "book-search",
   "version": "1.0.0",
   "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "server/server.js",

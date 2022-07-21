@@ -21,9 +21,6 @@ Follow [this link]([insert later]) to view and use our site!
 
 ## To-Do:
 
-- Setup an apollo server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API
-- Modify the existing authentication middleware so that it works in the context of a GraphQL API
-- Create an Apollo Provider so that requests can communicate with an Apollo Server
 - Test all functionality
 - Record readme gifs and update features section.
 - Deploy to Heroku and connect MongoDB database
@@ -39,7 +36,7 @@ This is how the front-end webpage appears to viewers. It is responsive, adapting
 <img alt="A screenshot of the homepage of Book Search. Users can search for books by filling out the search field, or they can login/signup by clicking the login/signup button." src="./assets/images/placeholder.jpg"/>
 </p>
 
-If the user selects "search for books," they are then presented with an input field to search for books. Clicking "submit" will return a list of search results, each featuring a book's title, author, description, image, and a link to that book on the Google Books site. If the user is logged in while searching for books, then an option appears for them to save a book to their account. By clicking on the save option, that book is added to the "Saved Books" page. Users can manage their saved books from this page by deleting that book from their saved books list. 
+If the user selects "search for books," they are then presented with an input field to search for books. Clicking "submit" will return a list of search results, each featuring a book's title, author, description, image, and a link to that book on the Google Books site. If the user is logged in while searching for books, then an option appears for them to save a book to their account. By clicking on the save option, that book is added to the "Saved Books" page. Users can manage their saved books from this page by deleting that book from their saved books list.
 
 [start from homepage while logged in, search for book, save book to saved books, delete book from saved books]
 
@@ -47,7 +44,7 @@ If the user selects "search for books," they are then presented with an input fi
 <img alt="A demonstration gif showing the user searching for a book, saving it to their list, and managing their saved books by deleting one." src="./assets/images/placeholder.jpg"/>
 </p>
 
-Clicking the login/signup button on the main page will bring users to a login portal. The user can toggle the modal between a "sign up" or "login" option. Here they can either enter new credentials to sign up as a user in the signup section, or they can enter their already verfied credentials into the login section. To sign up, users must provide a username, a valid email address, and a password. To login, they only need to provide their email address and password for verification. Later, users can logout using the "logout" button that appears in the site's navigation. 
+Clicking the login/signup button on the main page will bring users to a login portal. The user can toggle the modal between a "sign up" or "login" option. Here they can either enter new credentials to sign up as a user in the signup section, or they can enter their already verfied credentials into the login section. To sign up, users must provide a username, a valid email address, and a password. To login, they only need to provide their email address and password for verification. Later, users can logout using the "logout" button that appears in the site's navigation.
 
 [start from homepage, click login/signup, signup]
 
