@@ -22,8 +22,7 @@ Follow [this link]([insert later]) to view and use our site!
 ## To-Do:
 
 - Test all functionality
-- Record readme gifs and update features section.
-- Deploy to Heroku and connect MongoDB database
+- Record readme gifs and update features section
 - Turn in Project
 
 ## Features
